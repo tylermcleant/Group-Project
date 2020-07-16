@@ -1,8 +1,13 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+
+.brand{
+	color: white;
+}
 .cv{
 	background-color: black;
 }
+
 
 figure{
 	background-image: url(/assets/images/green-shoe-1.jpg);
@@ -103,11 +108,19 @@ h1, h2, h3, h4, h5, h6 {
 /*
    * Footer
    */
+
+#getstarted{
+	padding: 20px 20px 20px;
+	background-color: white;
+	border: white;
+	border-radius: 10px;
+	font-style: italic;
+}
 .blog-footer {
 	padding: 2.5rem 0;
 	color: #999;
 	text-align: center;
-	background-color: #f9f9f9;
+	background-color:#c9dc0a;
 	border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
