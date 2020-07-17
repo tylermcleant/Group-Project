@@ -1,17 +1,31 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+
+.brand{
+	color: white;
+}
+.cv{
+	background-color: black;
+}
+
+
+figure{
+	background-image: url(/assets/images/green-shoe-1.jpg);
+}
+
 .blog-header {
 	line-height: 1;
-	border-bottom: 1px solid #e5e5e5;
 }
 
 .blog-header-logo {
 	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
 	font-size: 2.25rem;
+	color:white;
 }
 
 .blog-header-logo:hover {
 	text-decoration: none;
+	color:#c9dc0a;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -94,12 +108,39 @@ h1, h2, h3, h4, h5, h6 {
 /*
    * Footer
    */
-.blog-footer {
+
+#getstarted{
+	padding: 20px 20px 20px;
+	background-color: white;
+	border: white;
+	border-radius: 10px;
+	font-style: italic;
+	margin-left: 50%;
+	
+}
+
+footer p{
+	color:black;
+}
+.signupbkgrnd {
 	padding: 2.5rem 0;
 	color: #999;
 	text-align: center;
-	background-color: #f9f9f9;
+	background-color:#c9dc0a;
 	border-top: .05rem solid #e5e5e5;
+}
+
+.hangtags{
+	padding: 7%;
+	color:#4a4a4a;
+	background-color: #333333;
+
+}
+
+.hanghd{
+	color:white;
+	text-align: center;
+	margin-bottom: 20%;
 }
 .blog-footer p:last-child {
 	margin-bottom: 0;
