@@ -1,5 +1,4 @@
 # Project Scope 
-
 By Richard Barnes, Tyler McLean, and Nedra Thomas 
 
 ## The Home Page:
