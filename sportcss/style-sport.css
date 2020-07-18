@@ -54,9 +54,10 @@ footer p{
 }
 
 body {
-    background-image: url("/Group-Project/assets/images/background-image.jpg");
+    background-image: url("/Group-Project/assets/images/background-image5.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
+	
 }
 
 .col {
