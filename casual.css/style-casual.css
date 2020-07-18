@@ -50,6 +50,10 @@ footer p{
 	margin-bottom: 0;
 }
 
+.buttonholder{
+    text-align: center;
+}
+
 #price {
     text-align: center;
     text-decoration: underline;
@@ -60,6 +64,7 @@ body {
     background-image: url("/assets/images/gray-mood.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: dimgrey;
 }
 
 .col {
