@@ -8,6 +8,30 @@
 	background-color: black;
 }
 
+.abt{
+	background-color: #f6f6f6;
+	padding: 50px 50px 250px 50px;
+	font-size: 20px;
+	line-height: 1.6;
+
+}
+
+.head1{
+	font-size: 500%;
+	margin-top: 5%;
+}
+
+.para1{
+	margin-top: 10%;
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+#endpara{
+	font-size: 20px;
+	color: grey;
+}
+
 
 figure{
 	background-image: url(/assets/images/green-shoe-1.jpg);
