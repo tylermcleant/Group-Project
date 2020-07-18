@@ -1,6 +1,8 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
-
+img{
+	transition: .1s ease-in;
+}
 .brand{
 	color: white;
 }
@@ -100,6 +102,60 @@
 }
 
 
+.carousel{
+	background-color: white;
+	padding-bottom: 10%;
+}
+
+.carousel-control-prev{
+    padding-right: 13%;
+    background-color: #c9dc0a;
+    width: 15%;
+    height: 10%;
+    margin-top: 35%;
+}
+
+.carousel-control-next{
+	padding-left: 13%;
+    background-color: #c9dc0a;
+    width: 15%;
+    height: 10%;
+    margin-top: 35%;
+}
+
+main p{ 
+	color: black;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+#hd2{
+	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+	font-size: 3rem;
+}
+
+#content2{
+	text-align: left;
+	line-height: 1.6;
+	font-size: 20px;
+
+}
+
+.legs{
+	height: 100%;
+	width: 90%;
+	margin-left: 14%;
+	margin-top: 10%;
+}
+.test{
+	float: right;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 1.6;
+	margin-top: 10%;
+
+}
 .blog-header {
 	line-height: 1;
 }
@@ -113,6 +169,14 @@
 .blog-header-logo:hover {
 	text-decoration: none;
 	color:#c9dc0a;
+}
+
+#lsthd{
+	font-size: 2.25rem;
+	color: black;
+	font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+	margin-top: 20%;
+	text-align: right;
 }
 
 h1, h2, h3, h4, h5, h6 {
