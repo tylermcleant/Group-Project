@@ -7,6 +7,47 @@
     color: #c9dc0a;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+
+}
+
+.dopepics {
+
+	height: 40vh;
+	width: 100%;
+	background-image: url(/Group-Project/assets/images/backgroundtrans1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 4;
+
+	animation-name: animate;
+	animation-direction: alternate-reverse;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes animate{
+	0%{
+		background-image: url(/Group-Project/assets/images/backgroundtrans1.jpg);
+	}25%{
+		background-image: url(/Group-Project/assets/images/backgroundtrans2.jpg);
+	}50%{
+		background-image: url(/Group-Project/assets/images/backgroundtrans3.jpg);
+	}75%{
+		background-image: url(/Group-Project/assets/images/backgroundtrans4.jpg);
+	}
+
+}
+
+
 * Footer
    */
 
@@ -53,12 +94,7 @@ footer p{
     font-weight: 900;
 }
 
-body {
-    background-image: url("/Group-Project/assets/images/background-image5.jpg");
-    background-repeat: no-repeat;
-	background-size: cover;
-	
-}
+
 
 .col {
     padding: 5px 5px;
@@ -70,3 +106,5 @@ body {
     width: 225px;
     border: 3px solid black;
 }
+
+
