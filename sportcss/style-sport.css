@@ -20,7 +20,7 @@ body {
 	height: 40vh;
 	width: 100%;
 	background-image: url(/Group-Project/assets/images/backgroundtrans1.jpg);
-	background-size: cover;
+	background-size: 100% 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	transition: 4;
