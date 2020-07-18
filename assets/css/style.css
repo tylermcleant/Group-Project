@@ -156,6 +156,20 @@ main p{
 	margin-top: 10%;
 
 }
+
+.subrb{
+	margin-top: 10%;
+	max-width: 40%;
+	float: left;
+	color:white;
+}
+
+.pg4bdy{
+	background-image: url(../images/marten-bjork-vpu5kDnU_Aw-unsplash.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
 .blog-header {
 	line-height: 1;
 }
