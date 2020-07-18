@@ -57,7 +57,7 @@ footer p{
 }
 
 body {
-    background-image: url("assets/images/gray-mood.jpg");
+    background-image: url("/assets/images/gray-mood.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
