@@ -2,9 +2,16 @@
     padding-top: 70px;
     text-align: center;
     font-size: 100px;
-    background-color: #333333;
+    background-color: #c9dc0a;
     background-size: 0px 100px;
-    color: #c9dc0a;
+    color: #333333;
+}
+
+#dealbanner {
+    word-spacing: 200px;
+    text-align: center;
+    background-color: red;
+    color: white;
 }
 
 * Footer
@@ -50,15 +57,10 @@ footer p{
 #price {
     text-align: center;
     text-decoration: underline;
-    font-weight: 900;
+    font-weight: 600;
+    color: red;
 }
 
-body {
-    background-image: url("/Group-Project/assets/images/background-image5.jpg");
-    background-repeat: no-repeat;
-	background-size: cover;
-	
-}
 
 .col {
     padding: 5px 5px;
@@ -69,4 +71,11 @@ body {
     height: 225px;
     width: 225px;
     border: 3px solid black;
+}
+
+#dealbanner2 {
+    word-spacing: 200px;
+    text-align: center;
+    background-color: red;
+    color: white;
 }
