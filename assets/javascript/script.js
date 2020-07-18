@@ -15,6 +15,15 @@ $(document).ready(function(){
         $(".choice").removeClass("choice2");
     })
 
+    $("form").hide(function(){
+        $("form").fadeIn("slow");
+    })
+
+    $(".sblv").hide(function(){
+        $(".sblv").fadeIn(3500);
+    })
+
+
 
 
 });

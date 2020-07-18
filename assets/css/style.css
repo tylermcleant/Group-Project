@@ -170,6 +170,16 @@ main p{
 	background-size: cover;
 }
 
+.sblv{
+	font-size: 80px;
+
+}
+
+.subbtn{
+	padding: 3%;
+	font-size: 150%;
+}
+
 .blog-header {
 	line-height: 1;
 }
